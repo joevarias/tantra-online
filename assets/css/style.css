@@ -1,0 +1,815 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*========================================================*/
+/*========================================================*/
+
+ /*==== Main HTML Elements Start ====*/
+ 
+
+main, div.story, div.tribe-info {
+	color: white !important;
+}
+
+.container-story hr {
+	border-top: 2px solid black !important;
+	margin: 10px 20% 10px 20% !important;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+	font-family: 'Goudy Bookletter 1911', serif;
+}
+
+h2,h3,h4 {
+	color: yellow !important;
+}
+
+h1 {
+	color: black !important;
+	text-align: center;
+	margin: 35px 0 20px 0;
+}
+
+ul > li {
+/*	margin-left: 20px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.page-caption > h1 {
+	padding-top: 2rem !important;
+	margin-bottom: 1.5rem!important;
+}
+
+.page-caption > h1.tribes, h1.gallery {
+	margin-top: 0 !important;
+	color: black !important;
+}
+
+
+p.grand_total {
+	font-size: 1.5rem !important;
+}
+
+span.grand_total {
+	font-weight: bold;
+}
+
+ /** Main HTML Elements End **/
+
+/*========================================================*/
+/*========================================================*/
+
+ /*==== Bootstrap Classes Start ====*/
+
+.card-title {
+	margin-bottom: 0 !important;
+	padding-bottom: .75rem !important;
+}
+
+ /** Bootstrap Classes End **/
+
+/*========================================================*/
+/*========================================================*/
+
+ /*==== NavBar Start ====*/
+
+.navbar {
+	background-image: linear-gradient(to bottom right, #000, #4b4b4c) !important;
+	width: 100%;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.navbar-brand {
+	height: 58px;
+}
+
+.navbar-brand > img{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-link, .navlink > li > a, div > a {
+	text-align: center !important;
+}
+
+/*parent navbar link font size*/
+.nav-link {
+	font-size: 18px;
+	padding: 10px 10px 10px 10px !important;
+	margin: 0 !important;
+	color: #e9d700 !important;
+}
+
+/*navbar link font style and color*/
+.navbar-nav > li > a {
+	font-weight: bold;
+}
+
+/*navbar text color on hover*/
+.navbar-nav > li > a:hover {
+	color: white !important;
+}
+
+/*changes dropdown background color*/
+.navbar-nav > li > .dropdown-menu {
+	background-image: linear-gradient(to top, rgba(195,195,195,.5), rgba(195,195,195,.5), rgba(184,169,0,.5)) !important;
+  -webkit-box-shadow: 0 0 4px 2px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 0 4px 2px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 0 4px 2px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+/*changes dropdown-menu font-color*/
+.navbar-nav > li > .dropdown-menu > .dropdown-item {
+	color: black;
+}
+
+/*changes dropdown-menu active bg color*/
+.navbar-nav > li > .dropdown-menu> a:active {
+	background-color: white;
+}
+
+/*border for userinfo while on mobile view*/
+.dropdown-divider-userinfo {
+	display: none;
+}
+
+/*modal title*/
+.modal-title {
+	color: #000 !important;
+}
+
+.modal-noacct-yet-label {	
+	margin: 0 0 5px 4px;
+	padding: 0;
+	font-size: .9rem;
+	width: 100%;
+}
+
+#login_error_message {
+	display: block;
+}
+
+
+ /** NavBar End **/
+
+/*========================================================*/
+/*========================================================*/
+
+ /*==== Index Start ====*/
+
+.hero-img {
+	padding: 45px 0px 40px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.hero-img > img {
+	max-height: 40%;
+	max-width: 40%;
+}
+
+.hero-vid {
+	border: 1px solid;
+	border-color: #000;
+}
+
+
+ /** Index End **/
+
+/*========================================================*/
+/*========================================================*/
+
+
+ /*==== Page Backgrounds Start ====*/
+
+
+body {
+	background-color: #d9dadb;
+}
+
+.bg-index {
+	background-image: linear-gradient(to right, rgba(48,48, 42,.5), rgba(148, 121, 74, .5)) !important;
+}
+
+.bg-index-img {
+	background: url(../images/main-bg.png) no-repeat center 0%;
+}
+
+.bg-index-imgoverlay {
+	background: rgba(229,229,229,.05);
+}
+
+.bg-document {
+	background: url(../images/concretebg.jpg);
+	background-repeat: repeat;
+	border: 1px solid;
+	border-color: #000;
+	padding: 0 !important;
+  -webkit-box-shadow: 0 0 6px 6px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 0 6px 6px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 0 6px 6px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.bg-document-overlay {
+	background-image: linear-gradient(to right, rgba(48,48, 42,.5), rgba(148, 121, 74, .5)) !important;
+	padding: 15px;
+	/*000, #494738, #9D9500*/
+}
+
+.bg-story {
+	background: url(../images/bg-story.jpg) no-repeat;
+	background-size: cover;
+}
+
+.bg-story-top {
+	background: url(../images/concretebg.jpg);
+	background-repeat: repeat;
+	border: 1px solid;
+	border-color: #000;
+	padding: 0 !important;
+	margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 6px 6px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 0 6px 6px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 0 6px 6px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
+
+.bg-story-overlay {
+	background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,.05), rgba(255,255,255,.15));
+}
+
+.bg-eight-tribes, .bg-ranking {
+	background: url(../images/bg-poster.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 35%;
+}
+
+.bg-eight-tribes-overlay, .bg-ranking-overlay {
+	background: rgba(229,229,229,.15);
+}
+
+.bg-tribeinfo-darken {
+	background: rgba(0,0,0, .6);
+}
+
+.bg-maps-topborder {
+	background: url(../images/headerfooterflipped.jpg) repeat-x;
+	height: 38px;
+}
+
+.bg-maps-footerborder {
+	background: url(../images/headerfooter.jpg) repeat-x;
+	height: 38px;
+}
+
+.bg-maps, .bg-gallery {
+	background: rgb(224, 204, 143);
+}
+
+.bg-container-maps {
+	margin-top: 10px !important;
+	background-color: #fff;
+}
+
+.bg-container-myaccount {
+	background-color: #fff;
+	padding: 30px !important;
+}
+
+.ranking-table-bg, .eight-tribes-docbg {
+	background-color: rgba(255,255,255,.7);
+}
+
+ /** Page Backgrounds End**/
+
+/*========================================================*/
+/*========================================================*/
+
+ /*==== Carousel Start ====*/
+
+
+.carousel-item >img {
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid;
+	border-color: #000;
+}
+
+ /** Carousel End **/
+
+/*========================================================*/
+
+ /*==== Social Media Start ====*/
+
+.social {
+	text-align: center;
+}
+
+.social li {
+	list-style-type: none;
+	display: inline;
+}
+
+#facebook {
+	color: rgba(59,89,153,1);
+}
+
+#twitter {
+	color: rgba(85,172,238,1);
+}
+
+#followus {
+	margin-bottom: 20px;
+}
+
+ /**Social Media End**/
+
+/*========================================================*/
+
+ /*==== Story Start ====*/
+
+.story-top-margin {
+	height: 80px;
+}
+
+.bg-story h1 {
+	color: yellow !important;
+	margin-bottom: 1.5rem!important;
+	margin-top: 1.5rem!important;
+}
+
+ /** Story End **/
+
+/*========================================================*/
+/*========================================================*/
+
+ /*==== Gallery Start ====*/
+
+
+.screenshot > img {
+	width: 100%;
+	margin: 15px 0 15px 0 !important;
+	padding: 0 !important;
+	border: 1px solid !important;
+	border-color: #fff !important;
+  -webkit-box-shadow: 0 0 10px 4px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 0 10px 4px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 0 10px 4px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+
+ /** Gallery End **/
+
+/*========================================================*/
+/*========================================================*/
+
+ /*==== Eight Tribes Start ====*/
+
+.tribe-card-wrapper {
+	width: 100%;
+	margin: 15px 0 15px 0 !important;
+	padding: 0 !important;
+	border: 1px solid !important;
+	border-color: #000 !important;
+  -webkit-box-shadow: 0 0 10px 4px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 0 10px 4px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 0 10px 4px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.tribe-img-card {
+	border-radius: 0 !important;
+}
+
+.tribe-img-title {
+	background-color: rgba(0,0,0,.06);
+}
+
+.tribe-img-title > a {
+	display: block;
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.eigh-tribes-section2 {
+	margin-top: 30px;
+}
+
+ /** Eight Tribes End **/
+
+/*========================================================*/
+/*========================================================*/
+ 
+ /*==== Maps Start ====*/
+
+.map-img-caption {
+	padding-top: 2rem !important;
+}
+
+.maps-card-wrapper {
+	width: 100%;
+	margin: 15px 0 15px 0 !important;
+	padding: 0 !important;
+	border: 1px solid !important;
+	border-color: #fff !important;
+	border-radius: 0;
+  -webkit-box-shadow: 0 0 10px 4px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 0 10px 4px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 0 10px 4px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.maps-img-title {
+	background-color: rgba(0,0,0,.06);
+}
+
+.maps-img-title > a {
+	display: block;
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+	padding-top: 8px;
+}
+
+
+.maps-hero-wrapper {
+	width: 90%;
+	margin: 15px auto 30px auto !important;
+	border: 1px solid !important;
+	border-color: #000 !important;
+}
+
+.maps-table-caption > h2 {
+	color: #000 !important;
+	margin: 20px 0 30px 0;
+	display: inline-flex !important;
+}
+
+table img {
+	max-width: 200px;
+}
+
+table.mydatatable {
+	font-size: 18px;
+}
+
+p.nonpcfound {
+	text-align: center;
+}
+
+ /** Maps End **/
+
+/*========================================================*/
+/*========================================================*/
+ 
+
+ /*==== Mall / Products Start ====*/
+
+
+ /*This removes white spaces of product desription*/
+pre {
+	white-space: pre-line;
+	text-align: left;
+}
+
+/*this adjusts image size*/
+
+.mall-card {
+	padding: 3px;
+}
+
+.mall-card img {
+	height: 55px; 
+	width: 55px;
+	margin: 5px;
+	border-style: groove;
+}
+
+.mall-card p.item-name {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin-bottom: 0 !important;
+}
+
+.mall-card p.item-price {
+	font-size: 1.25rem;
+	margin-bottom: 0 !important;
+}
+
+div.products {
+	margin-bottom: 15px;
+}
+
+p.tomycart > a {
+	font-size: 1.15rem;
+}
+
+
+ /** Mall / Products end **/
+
+
+/*========================================================*/
+/*========================================================*/
+ 
+
+ /*==== Checkout Start ====*/
+
+.checkout-sub-total-right {
+	float: right;
+}
+
+article h4 {
+	color: black !important;
+}
+
+.payment-method {
+	font-size: 1.30rem;
+}
+
+div.order-summary p {
+	font-size: 1.30rem;
+}
+
+ /** Checkout end **/
+
+
+/*========================================================*/
+/*========================================================*/
+/*========================================================*/
+ 
+
+ /*==== My Account Start ====*/
+
+
+.container-myaccount h4 {
+	color: black !important;
+}
+
+.myaccount-header {
+	font-size: 1.35rem;
+	font-weight: bold;
+}
+
+.myaccount-label-user {
+	float: right;
+}
+
+.bg-container-myaccount div.row {
+	margin-bottom: 22px;
+}
+
+.btn-save-profile {
+	padding: .5rem .9rem;
+}
+
+p.tomyprofile > a {
+	font-size: 1.15rem;
+}
+
+ /** My Account end **/
+
+
+/*========================================================*/
+/*========================================================*/
+ 
+ 
+
+ /*==== Ranking Start ====*/
+
+/*override some defaut margin-bottom properties for equal spacing*/
+.table-ranking, .table-ranking label, .table-ranking table  {
+	margin-bottom: .2rem !important;	
+}
+
+.table-ranking-header {
+	margin-top: 0 !important;
+}
+
+.table-ranking.table.dataTable tbody tr {
+	background-color: #343a40 !important;
+}
+
+
+ /** Ranking end **/
+
+
+/*========================================================*/
+/*========================================================*/
+
+
+/*This is a grid wrapper that pushes the footer to the bottom gracefully when html has small amount of content */
+article {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+
+/*========================================================*/
+/*========================================================*/
+
+
+ /*==== Media Screen Start ====*/
+
+ /*Desktop view 1600px above*/
+
+@media only screen and (min-width: 1600px) {
+
+.navbar {
+	padding-left: 8% !important;
+	padding-right: 10% !important;
+}
+
+.navbar-nav {
+	margin-right: 100px;
+}
+
+}
+
+/*========================================================*/
+/*========================================================*/
+
+ /*Desktop view 1280px to 1599px*/
+
+@media only screen and (max-width: 1599px) and (min-width: 1280px) {
+
+.navbar {
+	padding-left: 8% !important;
+	padding-right: 10% !important;
+}
+
+.navbar-nav {
+	margin-right: 0px;
+}
+
+}
+
+
+/*========================================================*/
+/*========================================================*/
+
+ /*Desktop view 1025px to 1279px*/
+
+@media only screen and (max-width: 1279px) and (min-width: 1025px) {
+
+
+}
+
+
+ /*Desktop view end*/
+
+
+/*========================================================*/
+/*========================================================*/
+
+ /*Tablet view 577px to 768px*/
+
+
+@media only screen and (max-width: 1024px) and (min-width: 577px) {
+
+/*social media icon size*/
+#facebook, #twitter, #email {
+	font-size: 2em;
+}
+
+#followus {
+	margin-top: 20px;
+}
+
+.social {
+	margin: 0;
+}
+
+.article-avatara > h3 {
+	margin-top: 1rem;
+}
+
+.bg-story {
+	background: rgb(224, 204, 143);
+}
+
+ /*bg-story-tablet view start*/
+.bg-story-topborder-mobile {
+	background: url(../images/headerfooterflipped.jpg) repeat-x;
+	height: 38px;
+}
+
+.bg-story-bottomborder-mobile {
+	background: url(../images/headerfooter.jpg) repeat-x;
+	height: 38px;
+}
+
+.bg-story-overlay {
+	background-image: none;
+}
+
+.story-top-margin {
+	height: 30px;
+}
+
+ /*bg-story-tablet view end*/
+
+}
+
+
+ /*Tablet view end*/
+
+/*========================================================*/
+/*========================================================*/
+
+
+ /*Mobile view max width 576px*/
+
+@media only screen and (max-width: 576px) {
+
+.navbar-brand {
+	height: 60px;
+}
+
+.hero-img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.intro {
+	padding: 18px;
+}
+
+/*social media icon size*/
+#facebook, #twitter, #email {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+#followus {
+	margin-top: 20px;
+}
+
+.social {
+	margin: 0;
+}
+
+.article-avatara > h3 {
+	margin-top: 1rem;
+}
+
+.bg-story {
+	background: rgb(224, 204, 143);
+}
+
+span.jumpbutton {
+	display: block !important;
+	margin-bottom: 35px;
+}
+
+
+ /*bg-story-mobile view start*/
+.bg-story-topborder-mobile {
+	background: url(../images/headerfooterflipped.jpg) repeat-x;
+	height: 38px;
+}
+
+.bg-story-bottomborder-mobile {
+	background: url(../images/headerfooter.jpg) repeat-x;
+	height: 38px;
+}
+
+.bg-story-overlay {
+	background-image: none;
+}
+
+.story-top-margin {
+	height: 30px;
+}
+
+ /*bg-story-mobile view end*/
+
+
+.dropdown-divider-userinfo {
+	display: block !important;
+}
+
+.myaccount-label-user {
+	float: none;
+}
+
+}
+
+ /*Mobile view end*/
